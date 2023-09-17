@@ -1,4 +1,4 @@
-FROM squishyu/bun-alpine:latest as install-dependencies
+FROM squishyu/bun-alpine:1.0.2 as install-dependencies
 
 WORKDIR /app
 
